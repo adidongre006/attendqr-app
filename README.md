@@ -11,7 +11,7 @@
 
 ## 🔗 Live Demo
 
-**Visit:** https://attendqr-tracker-app.vercel.app/
+**Visit:** https://vercel.com/code-web-d32c7317/attendqr-tracker-app-wfcy/1BFCNjUQgHb4dr24iZcxFcYVQf36
 
 ---
 
