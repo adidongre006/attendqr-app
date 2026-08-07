@@ -1,6 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { eq, and } from 'drizzle-orm';
 import QRCode from 'qrcode';
+import { config } from "dotenv";
+
+config({ path: ".env.local" });
+
 import { db } from '@/lib/db';
 import { sessions } from '@/lib/schema';
 import { getTeacherFromCookies } from '@/lib/session';
@@ -31,7 +35,9 @@ export async function GET(_req: NextRequest, { params }: { params: { id: string 
 
   // Encode a full URL so the code is also scannable with a plain phone
   // camera app (which just opens the link) as well as the in-app scanner.
-  const scanUrl = `${process.env.NEXT_PUBLIC_APP_URL}/scan?token=${encodeURIComponent(token)}`;
+  // const scanUrl = `${process.env.NEXT_PUBLIC_APP_URL}/scan?token=${encodeURIComponent(token)}`;
+  const origin = new URL(_req.url).origin;
+const scanUrl = `${origin}/scan?token=${encodeURIComponent(token)}`;
   const qrImage = await QRCode.toDataURL(scanUrl, {
     margin: 1,
     width: 360,

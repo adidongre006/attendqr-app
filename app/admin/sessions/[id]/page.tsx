@@ -109,7 +109,7 @@ export default function SessionDetailPage() {
                       {a.name} <span className="font-data text-xs text-slate-500">#{a.rollNo}</span>
                     </p>
                     <p className="font-data text-xs text-slate-500">
-                      {new Date(a.markedAt).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })} ·{' '}
+                      {new Date(a.markedAt).toLocaleTimeString('en-IN', { hour: '2-digit', minute: '2-digit' })} ·{' '}
                       {a.ipAddress}
                     </p>
                   </div>
