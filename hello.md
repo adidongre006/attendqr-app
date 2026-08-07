@@ -45,6 +45,8 @@
 - [🛠 Troubleshooting](#-troubleshooting)
   - [Invalid Email or Password](#invalid-email-or-password)
   - [`/admin` Errors After Login](#admin-errors-after-login)
+- [📄 License](#-license)
+  - [👨‍💻 Author](#-author)
 
 ---
 
@@ -497,3 +499,12 @@ This keeps the Edge Runtime compatible.
 
 ---
 
+# 📄 License
+
+This project is intended for educational and learning purposes. Modify and extend it according to your institutional requirements.
+
+---
+
+## 👨‍💻 Author
+
+Developed as a modern QR-based attendance tracking system using **Next.js**, **Neon PostgreSQL**, and **Drizzle ORM**.
