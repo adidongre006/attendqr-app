@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection {
+  background-color: rgba(232, 178, 77, 0.35);
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0d16;
+}
+::-webkit-scrollbar-thumb {
+  background: #232a3d;
+  border-radius: 999px;
+}
+
+/* Numeric data (roll numbers, timestamps, IP addresses, countdowns) always
+   renders in Fira Code, per the brief — it reads like a ledger / terminal
+   readout and makes numbers easy to scan against each other. */
+.font-data {
+  font-family: var(--font-fira), ui-monospace, SFMono-Regular, monospace;
+  font-feature-settings: 'tnum' 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
