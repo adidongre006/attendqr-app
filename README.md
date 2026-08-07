@@ -95,3 +95,4 @@ in `lib/auth.ts` (imported by `middleware.ts`, which runs on the Edge
 Runtime) has grown a Node-only dependency again. Password hashing
 (`bcryptjs`) belongs in `lib/password.ts` only.
 # attendqr-app
+# attendqr-app
