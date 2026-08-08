@@ -21,19 +21,11 @@ const fira = Fira_Code({
 export const metadata: Metadata = {
   title: 'AttendQR — Live Attendance',
   description: 'Rotating-QR attendance tracking with IP-based proxy detection.',
-  icons:{
-    "icon":[{
-      url:"/my_logo.svg",
-      sizes:"48x48"
-
-    }],
-  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${jakarta.variable} ${fira.variable}`}>
-      {/* <head><link rel="icon" href="/my_logo.svg" sizes='any' /></head> */}
       <body className="min-h-screen bg-ink-950 font-sans font-light text-slate-200 antialiased">
         {children}
       </body>

@@ -82,7 +82,7 @@ function LoginForm() {
               type={role === 'teacher' ? 'email' : 'text'}
               required
               autoFocus
-              className="w-full rounded-xl border border-white/10 bg-ink-900 px-4 py-2.5 font-data text-sm  text-slate-100 outline-none focus:border-amber-500/50"
+              className="w-full rounded-xl border border-white/10 bg-ink-900 px-4 py-2.5 font-data text-sm text-slate-100 outline-none focus:border-amber-500/50"
               placeholder={role === 'teacher' ? 'you@school.edu' : 'e.g. CS21B045'}
             />
           </div>

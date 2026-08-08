@@ -35,7 +35,7 @@ export default function ExportPage() {
               type="date"
               value={date}
               onChange={(e) => setDate(e.target.value)}
-              className="rounded-xl border border-white/10 bg-ink-900 px-4 py-2.5 font-data text-sm text-slate-100 outline-none focus:border-amber-500/50"
+              className="rounded-xl border border-white/10 bg-blue-700 px-4 py-2.5 font-data text-sm text-slate-100 outline-none focus:border-amber-500/50"
             />
           </div>
           <Button variant="ghost" onClick={handlePreview} disabled={loading}>

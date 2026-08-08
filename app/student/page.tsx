@@ -33,6 +33,9 @@ export default function StudentPage() {
           </p>
           <h1 className="text-xl font-medium text-slate-100">{student?.name ?? 'Loading…'}</h1>
           <p className="text-sm font-light text-slate-500">{student?.className}</p>
+          <Link href="/student/change-password" className="mt-1 inline-block font-data text-xs text-amber-500 underline underline-offset-4">
+            Change password
+          </Link>
         </div>
         <LogoutButton />
       </header>
