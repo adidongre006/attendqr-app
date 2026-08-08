@@ -426,13 +426,18 @@ Therefore:
 
 ### Default Student Password
 
+
+
 The default password is the student's roll number.
 
-For production deployments, it is recommended to implement:
 
-- Password change functionality
-- Password reset
-- Email verification (optional)
+--Note:  the student record will added by teacher only and they will provide you the roll no:
+
+
+
+-added  Password change functionality
+-added  Password reset from teacher's end 
+<!-- - Email verification (optional) not added till now  -->
 
 ---
 
