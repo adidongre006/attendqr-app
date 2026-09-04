@@ -53,9 +53,9 @@ async function main() {
   const { teachers } = await import('../lib/schema');
   const { hashPassword } = await import('../lib/password');
 
-  const name = process.env.SEED_TEACHER_NAME ?? 'Aditya Dongre';
-  const email = (process.env.SEED_TEACHER_EMAIL ?? 'extrawork207@gmail.com').toLowerCase();
-  const password = process.env.SEED_TEACHER_PASSWORD ?? '207@Extrawork';
+  const name = process.env.SEED_TEACHER_NAME ?? 'TEACHER';
+  const email = (process.env.SEED_TEACHER_EMAIL ?? 'abc@gmail.com').toLowerCase();
+  const password = process.env.SEED_TEACHER_PASSWORD ?? 'teacher@123';
 
   if (!process.env.SEED_TEACHER_EMAIL || !process.env.SEED_TEACHER_PASSWORD) {
     console.warn(

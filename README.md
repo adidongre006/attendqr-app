@@ -44,6 +44,7 @@
     - [Default Student Password](#default-student-password)
 - [🛠 Troubleshooting](#-troubleshooting)
   - [Invalid Email or Password](#invalid-email-or-password)
+        - [The Default Teacher's credientials are :](#the-default-teachers-credientials-are-)
   - [`/admin` Errors After Login](#admin-errors-after-login)
 
 ---
@@ -455,12 +456,14 @@ The script prints the seeded credentials.
 
 If environment variables are missing, the application falls back to:
 
+##### The Default Teacher's credientials are :
+
 ```text
 Email:
-admin@school.edu
+abc@gmail.com
 
 Password:
-change-this-password
+teacher@123
 ```
 
 Update your `.env.local`, then rerun:
