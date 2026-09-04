@@ -1,9 +1,10 @@
 # AttendQR
-----
+
+---
 
 ![alt text](attendqr-app-preview.png)
 
------
+---
 
 > A modern QR-based attendance management system built with **Next.js**, **Neon PostgreSQL**, and **Drizzle ORM**. AttendQR uses rotating QR codes, secure JWT authentication, and intelligent IP-based proxy detection to provide a reliable attendance solution for educational institutions.
 
@@ -37,11 +38,11 @@
 - [📦 Installation](#-installation)
 - [🌍 Deployment](#-deployment)
 - [🔤 Fonts](#-fonts)
-    - [Plus Jakarta Sans](#plus-jakarta-sans)
-    - [Fira Code](#fira-code)
+  - [Plus Jakarta Sans](#plus-jakarta-sans)
+  - [Fira Code](#fira-code)
 - [⚠️ Known Trade-offs](#️-known-trade-offs)
-    - [Duplicate IP Detection](#duplicate-ip-detection)
-    - [Default Student Password](#default-student-password)
+  - [Duplicate IP Detection](#duplicate-ip-detection)
+  - [Default Student Password](#default-student-password)
 - [🛠 Troubleshooting](#-troubleshooting)
   - [Invalid Email or Password](#invalid-email-or-password)
   - [`/admin` Errors After Login](#admin-errors-after-login)
@@ -82,17 +83,17 @@ The application also records the client's IP address server-side and highlights 
 
 # 🛠 Technology Stack
 
-| Category | Technology |
-|----------|------------|
-| Framework | Next.js (App Router) |
-| Language | TypeScript |
-| Database | Neon PostgreSQL |
-| ORM | Drizzle ORM |
-| Authentication | Custom JWT |
-| QR Generation | Signed JWT Tokens |
-| Excel Export | ExcelJS |
-| Styling | Tailwind CSS |
-| Fonts | Plus Jakarta Sans, Fira Code |
+| Category       | Technology                   |
+| -------------- | ---------------------------- |
+| Framework      | Next.js (App Router)         |
+| Language       | TypeScript                   |
+| Database       | Neon PostgreSQL              |
+| ORM            | Drizzle ORM                  |
+| Authentication | Custom JWT                   |
+| QR Generation  | Signed JWT Tokens            |
+| Excel Export   | ExcelJS                      |
+| Styling        | Tailwind CSS                 |
+| Fonts          | Plus Jakarta Sans, Fira Code |
 
 ---
 
@@ -294,7 +295,7 @@ AUTH_SECRET=
 
 QR_SECRET=
 
-NEXT_PUBLIC_APP_URL=
+PUBLIC_APP_URL=
 
 QR_ROTATE_SECONDS=45
 
@@ -363,7 +364,7 @@ Configure the same environment variables used locally.
 Update:
 
 ```env
-NEXT_PUBLIC_APP_URL=https://your-domain.vercel.app
+PUBLIC_APP_URL=https://your-domain.vercel.app
 ```
 
 Camera access for:
