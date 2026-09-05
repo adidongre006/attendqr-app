@@ -12,7 +12,7 @@
 
 ## 🔗 Live Demo
 
-**Visit:**: https://attendqr-tracker-app-wfcy-git-main-code-web-d32c7317.vercel.app/
+**Visit:**: https://attendance-qr-df9vzssyv-code-web-d32c7317.vercel.app/
 
 ---
 
@@ -38,13 +38,14 @@
 - [📦 Installation](#-installation)
 - [🌍 Deployment](#-deployment)
 - [🔤 Fonts](#-fonts)
-  - [Plus Jakarta Sans](#plus-jakarta-sans)
-  - [Fira Code](#fira-code)
+    - [Plus Jakarta Sans](#plus-jakarta-sans)
+    - [Fira Code](#fira-code)
 - [⚠️ Known Trade-offs](#️-known-trade-offs)
-  - [Duplicate IP Detection](#duplicate-ip-detection)
-  - [Default Student Password](#default-student-password)
+    - [Duplicate IP Detection](#duplicate-ip-detection)
+    - [Default Student Password](#default-student-password)
 - [🛠 Troubleshooting](#-troubleshooting)
-  - [Invalid Email or Password](#invalid-email-or-password) - [The Default Teacher's credientials are :](#the-default-teachers-credientials-are-)
+  - [Invalid Email or Password](#invalid-email-or-password)
+        - [The Default Teacher's credientials are :](#the-default-teachers-credientials-are-)
   - [`/admin` Errors After Login](#admin-errors-after-login)
 
 ---
