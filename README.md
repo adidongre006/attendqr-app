@@ -12,7 +12,7 @@
 
 ## 🔗 Live Demo
 
-**Visit:**: https://attendance-qr-df9vzssyv-code-web-d32c7317.vercel.app/
+**Visit:**: https://attendance-qr-app.vercel.app/
 
 ---
 
